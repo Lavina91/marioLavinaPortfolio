@@ -12,3 +12,27 @@ a {
     font-weight: bold;
     margin-right: 20px;
 }
+
+.card {
+    margin-top: 100px;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.card-text {
+    float: right;
+    margin-right: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
