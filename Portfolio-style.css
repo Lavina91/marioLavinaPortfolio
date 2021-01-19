@@ -1,30 +1,44 @@
 .navbar {
+    /* sets background color  */
     background-color: #656E6E;
 }
 
 #name {
+        /* font */
     font-weight: bolder;
+
+    /* postioning */
     margin-left: 10px;
 }
 
 a {
+       /* font */
     color: black;
     font-weight: bold;
+
+    /* positioning  */
     margin-right: 20px;
 }
 
 .card {
+    /* postioning  */
     margin-top: 100px;
 }
 
 .card-header {
+       /* font  */
     font-weight: bold;
     font-size: 32px;
+
+    /* postioning  */
     margin-left: 50px;
     margin-right: 50px;
+
+    /* sets background color  */
     background-color:white ;
 }
 
 img {
+    /* postioning  */
     margin: 50px;
 }
