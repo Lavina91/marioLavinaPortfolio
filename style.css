@@ -53,3 +53,13 @@ img {
     float: left;
     margin-right: 20px;
 }
+
+@media screen and (min-width: 600px ){
+     body{
+         text-align: center;
+     }
+}
+
+@media screen and (max-width: 992px){
+
+}
