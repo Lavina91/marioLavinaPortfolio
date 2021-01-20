@@ -54,12 +54,32 @@ img {
     margin-right: 20px;
 }
 
-@media screen and (min-width: 600px ){
-     body{
+/* assigns specific functions if screen is 600px or less */
+@media screen and (max-width: 600px ){
+    .card {
+
+         /* postioning  */
          text-align: center;
+         margin-left: 17px;
+     }
+
+     img {
+         margin-bottom: 20px;
      }
 }
 
-@media screen and (max-width: 992px){
+/* assigns specific functions if screen is 768px or more  */
+@media screen and (min-width: 768px){
+    .card {
+         /* postioning  */
+        margin-top: 200px;
+    }
+}
 
+/* assigns specific functions if screen is 992 px or more  */
+@media screen and (min-width: 992px) {
+    .card {
+        /* postioning  */
+        margin-top: 100px;
+    }
 }
