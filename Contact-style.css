@@ -2,7 +2,7 @@
     background-color: #656E6E;
 }
 
-#name {
+#navbar-name {
     font-weight: bolder;
     margin-left: 10px;
 }
@@ -11,4 +11,24 @@ a {
     color: black;
     font-weight: bold;
     margin-right: 20px;
+}
+
+.card {
+    margin-top: 100px;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+label {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
 }
