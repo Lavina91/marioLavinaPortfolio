@@ -12,6 +12,13 @@
     margin-left: 10px;
 }
 
+body {
+    /* added background image */
+    background-image: url("./images/black-thread.png");
+    background-repeat: repeat-y;
+
+}
+
 a {
        /* font */
     color:white !important;

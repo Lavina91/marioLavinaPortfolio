@@ -12,8 +12,16 @@
         margin-left: 10px;
     }
 
-    .navbar-nav {
+.navbar-nav {
+        /* postioning */
         margin-left: auto;
+    }
+
+body {
+    /* added background image */
+    background-image: url("./images/black-thread.png");
+    background-repeat: repeat-y;
+   
     }
 
 a {
@@ -47,6 +55,21 @@ a {
     /* postioning */
     float: right;
     margin-right: 20px;
+}
+
+.card-body2 {
+    /* postioning */
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+
+.icon {
+    /* dimensions */
+    width: 50px;
+    height: 50px;
+
+    /* postioning  */
+    margin-left: 50px;
 }
 
 img {
@@ -123,9 +146,14 @@ footer {
 @media screen and (min-width: 900px) {
     .card {
          /* postioning */
-        margin-top: 120px;
+        margin-top: 30px;
         margin-left: 32px;
+        
       
+    }
+
+    .card2 {
+        margin-bottom: 30px;
     }
 
     footer {
@@ -140,7 +168,12 @@ footer {
 @media screen and (min-width: 1080px) {
     .card {
         /* postioning */
-        margin-top: 60px;
+        margin-top: 30px;
+        
+    }
+
+    .card2 {
+        margin-bottom: 20px;
     }
 
     footer {
