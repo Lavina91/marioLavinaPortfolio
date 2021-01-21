@@ -3,7 +3,7 @@
     background-color: #656E6E;
 }
 
-#navbar-name {
+.navbar-brand {
         /* font */
     font-weight: bolder;
     color: white;
@@ -14,11 +14,16 @@
 
 a {
        /* font */
-    color:white;
+    color:white !important;
     font-weight: bold;
 
     /* positioning  */
     margin-right: 20px;
+}
+
+.navbar-nav {
+    /* postioning */
+    margin-left: auto;
 }
 
 .card {
@@ -117,6 +122,7 @@ assigns specific functions if screen is 900px or more  */
         /* postioning */
         padding-left: 36%;    
     }
+    
 }
 
 
