@@ -69,6 +69,15 @@ footer {
     padding-left: 40%;
 }
 
+.card-title {
+    text-align: center;
+}
+
+.text-muted {
+    text-align: center;
+    padding-top: 40px;
+}
+
 
 
 

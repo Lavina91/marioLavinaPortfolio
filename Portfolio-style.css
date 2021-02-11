@@ -6,7 +6,7 @@
 .navbar-brand {
         /* font */
     font-weight: bolder;
-    color: white;
+    color: white !important;
 
     /* postioning */
     margin-left: 10px;
@@ -19,7 +19,7 @@ body {
 
 }
 
-a {
+.nav-link {
        /* font */
     color:white !important;
     font-weight: bold;
@@ -65,10 +65,25 @@ img {
     margin: 30px;
 
     /* dimensions */
-    width: 300px;
-    height: 300px;
+    width: 900px;
+    height: 500px;
 }
 
+.project-text {
+    text-align: center;
+}
+
+.links {
+    margin-left: 40%;
+}
+
+#code-quiz {
+    margin-top: 150px;
+}
+
+#password-generator {
+    margin-top: 150px;
+}
 
 
 /* assigns specific functions if screen is 600px or less */
@@ -76,6 +91,7 @@ img {
     img {
         /* postioning */
         margin-left: 30px;
+        display: none;
     }
 
     .card-header{
@@ -87,6 +103,10 @@ img {
         /* postioning */
         padding-left: 14%;
     }
+
+    .links {
+        margin-left: 23%;
+    }
 }
 
 
@@ -96,7 +116,8 @@ img {
 @media screen and (min-width: 768px) {
     img {
         /* postioning */
-        margin-left: 180px;
+        margin-left: -30px;
+        width: 800;
     }
 
     .card-header {
@@ -117,7 +138,7 @@ assigns specific functions if screen is 900px or more  */
 @media screen and (min-width: 900px) {
     img {
         /* postioning */
-         margin-left: 100px;
+         margin-left: 12px;
         }
 
     .card-header {
@@ -141,7 +162,7 @@ assigns specific functions if screen is 900px or more  */
     img {
         /* postioning  */
         margin: 30px;
-        margin-left: 80px;
+        margin-left: 150px;
     }
 
     .card-header {
